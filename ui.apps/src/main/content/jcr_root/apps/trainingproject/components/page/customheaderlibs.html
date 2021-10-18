@@ -17,4 +17,8 @@
     <sly data-sly-call="${clientlib.css @ categories='trainingproject.base'}">
 </sly>
 
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='trainingproject.sg'}">
+</sly>
+
 <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
